@@ -1,9 +1,11 @@
 package daynine;
 
-public class StringSubClass extends String {
+public class StringSubClass {
 
 	public static void main(String[] args) {
 		
+		
 
 	}
+
 }
