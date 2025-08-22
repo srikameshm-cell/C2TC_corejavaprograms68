@@ -1,8 +1,8 @@
-package day10_;
+package day_10;
 
 public class MLArray
 {
-	public static void printArray(int c[][])
+	static void printArray(int c[][])
 	{
 		System.out.println("Array Elements are as follows: ");
 		for (int i = 0; i < c.length; i++) {
