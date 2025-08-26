@@ -1,5 +1,7 @@
 package day10_;
 
+import day5_.hierarchicalinheritance.Student;
+
 public class ArrayOfObjectsDemo {
 
 	public static void main(String[] args) {
@@ -8,13 +10,13 @@ public class ArrayOfObjectsDemo {
 		// allocating memory for 5 objects of type Student.
 		arr = new Student[5];
 		// initialize the first elements of the array
-		arr[0] = new Student(1, "Shaglin");
+		arr[0] = new Student();
 		// initialize the second elements of the array
-		arr[1] = new Student(2, "Vishal");
+		arr[1] = new Student();
 		// so on...
-		arr[2] = new Student(3, "Nidhi");
-		arr[3] = new Student(4, "Lisha");
-		arr[4] = new Student(5, "Saurav");
+		arr[2] = new Student();
+		arr[3] = new Student();
+		arr[4] = new Student();
 		
 		// accessing the elements of the specified array
 		for (int i = 0; i < arr.length; i++)
