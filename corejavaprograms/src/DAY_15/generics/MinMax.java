@@ -1,5 +1,10 @@
 package DAY_15.generics;
 
-public class MinMax {
+//Generic Interface
+public interface MinMax<T extends Comparable<T>> {
 
+	T min();
+
+	T max();
 }
+
